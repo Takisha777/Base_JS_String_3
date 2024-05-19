@@ -1,4 +1,4 @@
 let userName = prompt('Как вас зовут?');
 userName = userName.toLowerCase();
 userName = userName.trim();
-alert(userName);
+alert(`Вас зовут ${userName}`);
